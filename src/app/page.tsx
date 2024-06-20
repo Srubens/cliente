@@ -87,7 +87,7 @@ export default function Home() {
     <div className="container mt-4 mb-4" >
       <div className="text-center m-4" >
         <p>
-        Preencha o formulário, alinhar os dados. Qualquer dúvida entrar 
+        Preencha o formulário, para alinhar os dados. Qualquer dúvida entrar 
         em contato.</p>
       </div>
       <div className="d-flex justify-content-center">
