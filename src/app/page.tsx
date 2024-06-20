@@ -79,9 +79,6 @@ export default function Home() {
 
   return (
     <div className="container mt-4" >
-    <pre>
-      {JSON.stringify(form,null,2)}
-    </pre>
       <div className="text-center m-4" >
         <p>
         Preencha o formulario, alinhar os dados. Qual quer duvida entrar 
