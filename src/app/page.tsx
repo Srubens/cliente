@@ -15,6 +15,8 @@ export default function Home() {
     'nmempresa':"",
     'area':"",
     'logo':"",
+    'fone':"",
+    'email':"",
     'servicoproduto':"",
     'outroservicoproduto':"",
     'comentarios':""
@@ -45,6 +47,8 @@ export default function Home() {
             'Nome da empresa':form.nmempresa,	
             'Area de seguimento':form.area,	
             'Possui logo':form.logo,
+            'Telefone':form.fone,
+            'E-mail':form.email,
             'Serviço ou produto':form.servicoproduto,
             'Outro produto ou serviço':form.outroservicoproduto,
             'comentarios':form.comentarios
@@ -67,6 +71,8 @@ export default function Home() {
         'nmempresa':"",
         'area':"",
         'logo':"",
+        'fone':"",
+        'email':"",
         'servicoproduto':opc1[0],
         'outroservicoproduto':"",
         'comentarios':""
@@ -125,6 +131,28 @@ export default function Home() {
           <input className="form-control" 
           type="text" name="logo"
           value={form.logo}
+          onChange={onChange}
+          placeholder="Sim ou não"
+          />
+        </div>
+        <br />
+        
+        <div>
+          <label>Telefone</label>
+          <input className="form-control" 
+          type="text" name="fone"
+          value={form.fone}
+          onChange={onChange}
+          placeholder="Sim ou não"
+          />
+        </div>
+        <br />
+        
+        <div>
+          <label>E-mail</label>
+          <input className="form-control" 
+          type="text" name="email"
+          value={form.email}
           onChange={onChange}
           placeholder="Sim ou não"
           />
