@@ -143,7 +143,7 @@ export default function Home() {
           type="text" name="fone"
           value={form.fone}
           onChange={onChange}
-          placeholder="Sim ou não"
+          placeholder="Ex: 81 985349870"
           />
         </div>
         <br />
@@ -154,7 +154,7 @@ export default function Home() {
           type="text" name="email"
           value={form.email}
           onChange={onChange}
-          placeholder="Sim ou não"
+          placeholder="Ex: nome23@gmail.com"
           />
         </div>
         <br />
